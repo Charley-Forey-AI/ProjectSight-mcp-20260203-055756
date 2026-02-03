@@ -1,0 +1,107 @@
+[
+  {
+    "operation_id": "Account_GetAccounts",
+    "path": "/accounts",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ERPReadOnly_GetCompaniesForAccount",
+    "path": "/accounts/{accountId}/erpCompanies",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ERPReadOnly_GetCustomersAndVendorsForAccount",
+    "path": "/accounts/{accountId}/erpCustomersAndVendors",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ERPReadOnly_GetProjectsForAccount",
+    "path": "/accounts/{accountId}/erpProjects",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Account_GetPortfoliosForAccount",
+    "path": "/accounts/{accountId}/portfolios",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Portfolio_GetPortfolios",
+    "path": "/portfolios",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Portfolio_GetByID",
+    "path": "/portfolios/{portfolioGuid}",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Records_GetOpenAssignmentsForAllPortfolios",
+    "path": "/records/assignments",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Records_GetOpenAssignmentSummariesForAllPortfolios",
+    "path": "/records/assignments/summaries",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Company_List",
+    "path": "/{portfolioGuid}/Companies",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Company_ListOnly",
+    "path": "/{portfolioGuid}/Companies/list",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Company_Reports",
+    "path": "/{portfolioGuid}/Companies/reports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "RFI_GetByID",
+    "path": "/{portfolioGuid}/{projectId}/rfis/{rfiId}",
+    "method": "GET"
+  },
+  {
+    "operation_id": "RFI_List",
+    "path": "/{portfolioGuid}/{projectId}/rfis",
+    "method": "GET"
+  },
+  {
+    "operation_id": "RFI_ListWithQuery",
+    "path": "/{portfolioGuid}/rfis/query",
+    "method": "POST"
+  },
+  {
+    "operation_id": "RFI_ListOnly",
+    "path": "/{portfolioGuid}/{projectId}/rfis/list",
+    "method": "GET"
+  },
+  {
+    "operation_id": "RFI_ListOnlyWithQuery",
+    "path": "/{portfolioGuid}/rfis/list",
+    "method": "POST"
+  },
+  {
+    "operation_id": "RFI_GetWorkflowStates",
+    "path": "/{portfolioGuid}/{projectId}/rfis/workflowstates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "RFI_GetWorkflowTemplates",
+    "path": "/{portfolioGuid}/{projectId}/rfis/workflowtemplates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "RFI_Reports",
+    "path": "/{portfolioGuid}/rfis/reports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "RFI_UDFs",
+    "path": "/{portfolioGuid}/rfis/udfs",
+    "method": "GET"
+  }
+]
